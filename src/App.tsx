@@ -1,6 +1,11 @@
+import LoginScreen from './modules/login';
+
 function App() {
-  return;
-  <></>;
+  return (
+    <>
+      <LoginScreen />
+    </>
+  );
 }
 
 export default App;
