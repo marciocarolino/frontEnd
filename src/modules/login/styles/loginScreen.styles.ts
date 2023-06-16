@@ -22,9 +22,10 @@ export const ContainerLogin = styled.div`
 
 export const LimitedContainer = styled.div`
   width: 100%;
-  max-width: 498px;
+  height: 100vh;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 `;
 
 export const LoginImage = styled.img`
@@ -37,12 +38,13 @@ export const LoginImage = styled.img`
   z-index: 1;
 `;
 
+// colocando o fundo por enquando com cor
 export const BackgroundImage = styled.img`
+  background-color: BlueViolet;
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
-  max-width: 100%;
   height: 100vh;
   object-fit: cover;
   z-index: -1;
